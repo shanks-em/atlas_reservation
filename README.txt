@@ -1,0 +1,35 @@
+Membres
+ - ATTANASSO Emmanuel        SI
+ - VODOUNNON Houriath        SI
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ # Projet Atlas - Gestion de Réservation de Salles
+
+## Configuration de la Base de Données
+1. Assurez-vous d'avoir PostgreSQL installé.
+2. Créez la base de données :
+   `CREATE DATABASE atlas_db;`
+3. Importez le schéma et les données :
+   `psql -U postgres -d atlas_db -f db/atlas_db_backup.sql`
+
+## Configuration de l'Application
+- Modifiez `src/main/resources/application.properties` pour ajuster :
+  - `spring.datasource.username`
+  - `spring.datasource.password`
+
+## Lancement
+Exécutez la commande suivante à la racine :
+`mvn spring-boot:run`
+
+## Affichage
+Rendez vous ensuite dans votre navigateur puis 
+http://localhost/8080/login
+
+Entre deux modification du code, avant de compiler faites un 
+fuser -k 8080/tcp
+afin de libérer le port de la précédente compilation.
