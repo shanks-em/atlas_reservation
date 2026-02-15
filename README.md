@@ -32,3 +32,18 @@ Entre deux modification du code, avant de compiler faites un
 fuser -k 8080/tcp
 ```
 afin de libérer le port de la précédente compilation.
+
+## Accès 
+### Admin
+```bash
+mail : admin@atlas.com
+pass : 1234
+```
+
+### Client 
+```bash
+mail : jeandalle@gmail.com
+pass : 1234
+```
+
+Vous pouvez tout aussi bien créer un compte utilisateur en vous inscrivant via la page d'inscription
