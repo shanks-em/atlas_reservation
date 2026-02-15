@@ -37,7 +37,7 @@ afin de libérer le port de la précédente compilation.
 ### Admin
 ```bash
 mail : admin@atlas.com
-pass : 1234
+pass : admin123
 ```
 
 ### Client 
