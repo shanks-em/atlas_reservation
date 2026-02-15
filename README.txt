@@ -1,6 +1,5 @@
 
- 
- #Projet Atlas - Gestion de Réservation de Salles
+# Projet Atlas - Gestion de Réservation de Salles
 
 ## Configuration de la Base de Données
 1. Assurez-vous d'avoir PostgreSQL installé.
@@ -11,7 +10,7 @@
 psql -U postgres -d atlas_db -f db/atlas_db_backup.sql
 ```
 
-##Configuration de l'Application
+## Configuration de l'Application
 - Modifiez `src/main/resources/application.properties` pour ajuster :
   - `spring.datasource.username`
   - `spring.datasource.password`
